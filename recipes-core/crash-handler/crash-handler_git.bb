@@ -6,10 +6,11 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=e3fc50a88d0a364313df4b21ef20c29e"
 SRC_URI = "git://github.com/aaronovz1/crash-handler;branch=master \
 "
 
+DEPENDS = "libunwind"
 RDEPENDS_${PN} = " libunwind"
 
 S = "${WORKDIR}/git"
-SRCREV = "ee1b8bf03f412acaea26a3b0299016a6a048eba4"
+SRCREV = "656cf523b91ebb774e6adb388d428d4e85aae485"
 PV = "0.7+git${SRCREV}"
 
 do_compile() {
