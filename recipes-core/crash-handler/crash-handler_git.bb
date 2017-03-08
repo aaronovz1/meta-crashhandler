@@ -9,7 +9,7 @@ SRC_URI = "git://github.com/aaronovz1/crash-handler;branch=master \
 RDEPENDS_${PN} = " libunwind"
 
 S = "${WORKDIR}/git"
-SRCREV = "c6f7f0cf170b3f7f4ea3e94bc3f1558a275838fb"
+SRCREV = "ee1b8bf03f412acaea26a3b0299016a6a048eba4"
 PV = "0.7+git${SRCREV}"
 
 do_compile() {
