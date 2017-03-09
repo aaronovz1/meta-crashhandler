@@ -13,7 +13,6 @@ DEPENDS = "libunwind"
 RDEPENDS_${PN} = " libunwind"
 
 S = "${WORKDIR}/git"
-
 SRCREV = "719df356ecf17b4dbf2e0c3bc33dd285d174746f"
 PV = "0.7+git${SRCREV}"
 
