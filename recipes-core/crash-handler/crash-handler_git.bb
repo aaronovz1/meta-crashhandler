@@ -14,7 +14,7 @@ RDEPENDS_${PN} = " libunwind"
 
 S = "${WORKDIR}/git"
 SRCREV = "416e84ec1d36760e6698b2c81910682350efdfbf"
-PV = "0.7+git${SRCREV}"
+PV = "0.7.1+git${SRCREV}"
 
 FILES_${PN} += "${sbindir}/crash_handler"
 
